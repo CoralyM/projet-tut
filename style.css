@@ -1,0 +1,61 @@
+
+#accueil{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px
+}
+
+#onglets{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+#logo{
+    width: 150px;
+    height: 45px;
+margin-top: 15px;
+}
+
+#onglets:hover{
+    cursor: pointer;
+}
+ #onglets:hover .barre{
+    width: 80%;
+    height: 5px;
+    cursor: pointer;
+    background-color: red ;
+    display: flex;
+    transition-duration: 0.8s;
+    border-radius: 50px 50px;
+    margin: 10px auto 0px auto;
+}
+header nav{
+    display: flex;
+    margin-top: 30px
+}
+header{
+    display: flex;
+    height: 90px;
+    justify-content: space-around;
+    
+}
+.drapeaux{
+    display: block;
+    margin-top: 30px;
+    
+}
+
+.drapeaux img{
+    width: 35px;
+}
+
+#banniere-fete{
+    background-image: url("images/fete.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    background-position: center ;
+}
+
